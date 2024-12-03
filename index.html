@@ -49,27 +49,23 @@ body {
 /* Container styling */
 .container {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  padding: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
   gap: 20px;
-}
-
-.container img,
-.container iframe {
-  max-width: 45%;
-  height: auto;
-}
-
-.container.text-left {
-  flex-direction: row-reverse;
 }
 
 .container .text {
   max-width: 50%;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.container iframe {
+  max-width: 50%;
+  height: auto;
 }
 </style>
 </head>
@@ -89,17 +85,17 @@ body {
     <div class="text">
       <p>London is the capital city of England. It's a bustling metropolis with a rich history and diverse culture.</p>
     </div>
-    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="sc.html" height="600" width="600"></iframe>
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="sc.html" height="600" width="900"></iframe>
   </div>
 </div>
 
 <div id="Paris" class="tabcontent">
   <h3>Paris</h3>
-  <div class="container text-left">
-    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="m.html" height="600" width="600"></iframe>
+  <div class="container">
     <div class="text">
       <p>Paris is the capital of France and is renowned for its art, fashion, gastronomy, and culture.</p>
     </div>
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="m.html" height="600" width="900"></iframe>
   </div>
 </div>
 
@@ -109,35 +105,35 @@ body {
     <div class="text">
       <p>Tokyo is the capital of Japan and is known for its mix of traditional and modern architecture.</p>
     </div>
-    <iframe class="float-right" width="420" height="600" src="Population by Census Tract.html" frameborder="0" allowfullscreen></iframe>
+    <iframe src="Population by Census Tract.html" height="600" width="900" frameborder="0" allowfullscreen></iframe>
   </div>
 
-  <div class="container text-left">
-    <iframe class="float-right" width="420" height="600" src="Household Income Disparity.html" frameborder="0" allowfullscreen></iframe>
+  <div class="container">
     <div class="text">
       <p>Household income disparity data offers insights into economic gaps among populations.</p>
     </div>
+    <iframe src="Household Income Disparity.html" height="600" width="900" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <div class="container">
     <div class="text">
       <p>Educational attainment is crucial for understanding demographic trends and workforce skills.</p>
     </div>
-    <iframe class="float-right" width="420" height="600" src="Education Attainment.html" frameborder="0" allowfullscreen></iframe>
+    <iframe src="Education Attainment.html" height="600" width="900" frameborder="0" allowfullscreen></iframe>
   </div>
 
-  <div class="container text-left">
-    <iframe class="float-right" width="420" height="600" src="Poverty Rate.html" frameborder="0" allowfullscreen></iframe>
+  <div class="container">
     <div class="text">
       <p>Poverty rate data reveals socioeconomic challenges within various regions.</p>
     </div>
+    <iframe src="Poverty Rate.html" height="600" width="900" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <div class="container">
     <div class="text">
       <p>Unemployment rates provide key indicators of economic health and workforce participation.</p>
     </div>
-    <iframe class="float-right" width="420" height="600" src="Unemployment Rate_Above 16 years in Labor Force.html" frameborder="0" allowfullscreen></iframe>
+    <iframe src="Unemployment Rate_Above 16 years in Labor Force.html" height="600" width="900" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
