@@ -1,0 +1,17 @@
+/* for smaller screens */
+@media (max-width: 490px) {
+
+#browserView {
+    visibility: hidden;
+    margin-top: -25%;
+    position: fixed;
+}
+}
+
+/* for larger screens  */
+@media (min-width: 491px) {
+
+#mobileView{
+    visibility: hidden;
+}
+}
