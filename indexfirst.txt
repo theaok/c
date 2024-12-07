@@ -116,3 +116,23 @@ function openCity(evt, cityName) {
    
 </body>
 </html> 
+
+
+  <h3>Housing Affordibiltiy</h3>
+  <div class="container">
+    <div class="text">
+      <p>London is the capital city of England. It's a bustling metropolis with a rich history and diverse culture.</p>
+    </div>
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="sc.html" height="600" width="900"></iframe>
+  </div>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Housing Affordibiltiy</h3>
+  <div class="container">
+    <div class="text">
+      <p>London is the capital city of England. It's a bustling metropolis with a rich history and diverse culture.</p>
+    </div>
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="sc.html" height="600" width="900"></iframe>
+  </div>
+</div>
